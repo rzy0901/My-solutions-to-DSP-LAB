@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 11.0, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"    "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+]>
+<svg  xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 width="1568" height="1177" viewBox="-0.1597 -0.6909 1568 1177" xml:space="preserve">
+	<defs>
+	</defs>
+	<g>
+		
+			<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="5" x1="66.9185" y1="1109.187" x2="351.5376" y2="1109.187"/>
+		
+			<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="5" x1="351.5376" y1="1109.187" x2="660.209" y2="1109.187"/>
+		
+			<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="5" x1="1277.1431" y1="1109.187" x2="1463.5503" y2="1109.187"/>
+		<polyline id="achsen_1_" fill="none" stroke="#000000" stroke-width="4" points="66.9185,86.6567 66.9185,1021.0913 
+			1552.8599,1021.0913 "/>
+		<polygon stroke="#000000" stroke-width="4" points="89.0815,91.8706 66.9185,71.1211 44.7554,91.8706 "/>
+		<polygon stroke="#000000" stroke-width="4" points="1541.3677,1041.8403 1564.3481,1021.0913 1541.3677,1000.3403 "/>
+		<polygon stroke="#000000" stroke-width="2" points="1441.7935,1129.9966 1463.9565,1109.2476 1441.7935,1088.4985 "/>
+		<polygon stroke="#000000" stroke-width="2" points="331.2119,1131.3501 351.9614,1109.186 331.2119,1087.0229 "/>
+		<polygon stroke="#000000" stroke-width="2" points="640.2231,1131.3501 660.9731,1109.186 640.2231,1087.0229 "/>
+		<line fill="none" stroke="#000000" stroke-width="2" x1="66.8613" y1="1087.0229" x2="66.8613" y2="1131.3501"/>
+		<line fill="none" stroke="#000000" stroke-width="2" x1="1277.5825" y1="1087.0317" x2="1277.5825" y2="1131.356"/>
+		<polygon stroke="#000000" stroke-width="2" points="982.354,596.6108 961.605,574.4463 940.853,596.6108 "/>
+		<line fill="none" stroke="#000000" stroke-width="2" x1="95.3823" y1="29.2407" x2="502.3716" y2="29.2407"/>
+		<text transform="matrix(1 0 0 1 509.8125 42.8994)"><tspan x="0" y="0" font-family="'ArialMT'" font-size="50" letter-spacing="-5">T</tspan><tspan x="25" y="0" font-family="'ArialMT'" font-size="50">astenanschla</tspan><tspan x="319.6538" y="0" font-family="'ArialMT'" font-size="50" letter-spacing="5">g</tspan></text>
+		<circle cx="98.4634" cy="29.2407" r="10.5605"/> 
+		<line fill="none" stroke="#000000" stroke-width="2" x1="1291.355" y1="29.2407" x2="871.3188" y2="29.2407"/>
+		<circle cx="1288.2739" cy="29.2407" r="10.5605"/> 
+		<path id="kurve_2_" fill="none" stroke="#000000" stroke-width="5" stroke-miterlimit="5" d="M66.9185,1021.0913
+			c0,0,239.0747-624.8115,284.6191-865.0039c0,0,120.2617,365.9106,308.6714,418.3989h617.353
+			c0,0,32.0693,208.2896,186.4053,446.605"/>
+		
+			<line fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="12" x1="351.5376" y1="156.0874" x2="351.5376" y2="1019.2144"/>
+		
+			<line fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="12" x1="660.209" y1="574.4863" x2="660.209" y2="1021.0913"/>
+		
+			<line fill="none" stroke="#000000" stroke-width="3" stroke-dasharray="12" x1="1277.562" y1="574.4863" x2="1277.562" y2="1021.0913"/>
+		<line fill="none" stroke="#000000" stroke-width="4" x1="961.6011" y1="590.7466" x2="961.6011" y2="766.5552"/>
+		<line fill="none" stroke="#000000" stroke-width="4" x1="961.6011" y1="829.5991" x2="961.6011" y2="1020.9751"/>
+		<g>
+			<rect x="114.3545" y="1123.2183" fill="none" width="264.6328" height="40.0869"/> 
+			<text transform="matrix(1 0 0 1 114.3545 1159.0952)"><tspan x="0" y="0" font-family="'ArialMT'" font-size="50">Attack</tspan></text>
+		</g>
+		<g>
+			<rect x="394.9653" y="1123.2183" fill="none" width="264.6328" height="40.0869"/> 
+			<text transform="matrix(1 0 0 1 394.9653 1159.0952)"><tspan x="0" y="0" font-family="'ArialMT'" font-size="50">Decay</tspan></text>
+		</g>
+		<g>
+			<rect x="1282.3735" y="1123.2183" fill="none" width="264.6338" height="40.0869"/> 
+			<text transform="matrix(1 0 0 1 1282.3735 1159.0952)"><tspan x="0" y="0" font-family="'ArialMT'" font-size="50">Release</tspan></text>
+		</g>
+		<g>
+			<rect x="886.23" y="780.8257" fill="none" width="257.8457" height="48.7734"/> 
+			<text transform="matrix(1 0 0 1 886.23 816.7036)"><tspan x="0" y="0" font-family="'ArialMT'" font-size="50">Sustain</tspan></text>
+		</g>
+		<g>
+			<rect x="7.3193" y="54.751" fill="none" width="58.7681" height="324.7686"/> 
+			<text transform="matrix(4.489660e-011 -1 1 4.489660e-011 44.2251 379.519)"><tspan x="0" y="0" font-family="'Arial-ItalicMT'" font-size="51">Level 100%</tspan></text>
+		</g>
+		<text transform="matrix(1 0 0 1 1419.2251 1070.6479)"><tspan x="0" y="0" font-family="'Arial-ItalicMT'" font-size="50">T</tspan><tspan x="30.1025" y="0" font-family="'Arial-ItalicMT'" font-size="50">im</tspan><tspan x="82.8613" y="0" font-family="'Arial-ItalicMT'" font-size="50">e</tspan></text>
+	</g>
+</svg>

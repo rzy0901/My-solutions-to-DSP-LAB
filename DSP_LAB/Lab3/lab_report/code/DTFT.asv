@@ -1,0 +1,6 @@
+function X=DTFT(x,n0,dw)
+%n0 time index of 1st element of x
+%dw spacing between the samples of the Matlab vector
+w=-pi:dw:pi;
+X
+end

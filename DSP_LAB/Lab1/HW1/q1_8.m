@@ -1,0 +1,12 @@
+clear;
+m=-50:50;
+n=-50:50;
+[M,N]=meshgrid(m,n);
+f=255*abs(sinc(0.2.*M).*sin(0.2.*N));
+figure(1);
+sgtitle('11812214 任振裕');
+mesh(M,N,f);xlabel('m'),ylabel('n'),zlabel('f(m,n)');
+figure(2);
+image(f);
+colormap(gray(256)); 
+axis('image');

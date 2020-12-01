@@ -1,0 +1,17 @@
+clear;
+Ts=[1/10 1/3 1/2 10/9];
+n1=0:100;
+n2=0:30;
+n3=0:20;
+n4=0:9;
+x1=sin(2*pi*Ts(1)*n1);
+x2=sin(2*pi*Ts(2)*n2);
+x3=sin(2*pi*Ts(3)*n3);
+x4=sin(2*pi*Ts(4)*n4);
+figure(1);
+sgtitle('11812214 任振裕');
+orient('tall');
+subplot(411),stem(n1,x1),xlabel('n'),ylabel('x1'),title('Ts=1/10'),axis([0,100,-1,1]);
+subplot(412),stem(n2,x2),xlabel('n'),ylabel('x2'),title('Ts=1/3'),axis([0,30,-1,1]);
+subplot(413),stem(n3,x3),xlabel('n'),ylabel('x3'),title('Ts=1/2'),axis([0,20,-1,1]);
+subplot(414),stem(n4,x4),xlabel('n'),ylabel('x4'),title('Ts=10/9'),axis([0,9,-1,1]);

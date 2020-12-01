@@ -1,0 +1,17 @@
+clear;
+n=-10:20;
+x1=(n==0)-(n==5);
+x2=(n>=0)-(n>=11);
+y1=differentiator(x1);
+y2=integrator(x1);
+y3=differentiator(x2);
+y4=integrator(x2);
+orient('tall');
+subplot(4,2,1),stem(n,x1),xlabel('n'),ylabel('x_1[n]'),title('input');
+subplot(4,2,2),stem(n,y1),xlabel('n'),ylabel('y_1[n]'),title('output for differentiator');
+subplot(4,2,3),stem(n,x1),xlabel('n'),ylabel('x_1[n]'),title('input');
+subplot(4,2,4),stem(n,y2),xlabel('n'),ylabel('y_2[n]'),title('output for integrator');
+subplot(4,2,5),stem(n,x2),xlabel('n'),ylabel('x_2[n]'),title('input');
+subplot(4,2,6),stem(n,y3),xlabel('n'),ylabel('y_3[n]'),title('output for differentiator');
+subplot(4,2,7),stem(n,x2),xlabel('n'),ylabel('x_2[n]'),title('input');
+subplot(4,2,8),stem(n,y4),xlabel('n'),ylabel('y_4[n]'),title('output for integrator');
