@@ -1,0 +1,11 @@
+\contentsline {section}{6.1 Introduction}{1}{section*.2}%
+\contentsline {section}{6.2 z-transform}{2}{section*.3}%
+\contentsline {subsection}{6.2.2 Poles and zeros of z-transform}{2}{section*.4}%
+\contentsline {subsection}{6.2.3 z-transform and frequency response}{4}{section*.5}%
+\contentsline {subsection}{6.2.4 Inverse z-transform}{6}{section*.6}%
+\contentsline {subsection}{6.2.5 Stability Conditions}{8}{section*.7}%
+\contentsline {section}{6.3 Linear Phase FIR Filters}{11}{section*.8}%
+\contentsline {subsection}{6.3.1 Four Types of Linear Phase FIR Filters}{11}{section*.9}%
+\contentsline {subsection}{6.3.2 Design of Simple FIR Filters}{15}{section*.12}%
+\contentsline {section}{6.4 IIR Filters}{18}{section*.13}%
+\contentsline {section}{6.5 Summary \& Experience}{19}{section*.14}%
