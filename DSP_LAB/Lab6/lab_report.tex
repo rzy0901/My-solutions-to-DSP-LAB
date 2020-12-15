@@ -52,6 +52,13 @@ There are mainly two parts of this lab:
     We will use four basic types of it to have a further exploration for it. In the part of IIR filter, we will involve a simple first order filter.
     All these could help us have a first insight into the digital filter designs.
 \end{itemize}
+\begin{warn}
+    In order to simplify the bandwidth analysis, all magnitude responses in dB use the formula of
+    squared magnitude: 
+    $$
+    \text{magnitude response in dB}=20\log_{10}\text{magnitude response}
+    $$
+\end{warn}
 \section*{6.2 z-transform}
 \addcontentsline{toc}{section}{6.2 z-transform}
 \subsection*{6.2.2 Poles and zeros of z-transform}
@@ -354,9 +361,9 @@ There are mainly two parts of this lab:
             \item When $\text{ROC}=\left\{z:|z|>0.5\right\}$, then $y[n]$ is a right-sided sequence.\\
             $\therefore$ $y[n]=-6.4\delta[n]+2.8889(-0.4)^nu[n]+6.5111(0.5)^nu[n]$.
             \item When $\text{ROC}=\left\{z:|z|<0.4\right\}$, then $y[n]$ is a left-sided sequence.\\
-            $\therefore$ $y[n]=6.4\delta[n]-2.8889(-0.4)^nu[-n-1]+6.5111(0.5)^nu[-n-1]$.
+            $\therefore$ $y[n]=6.4\delta[n]-2.8889(-0.4)^nu[-n-1]-6.5111(0.5)^nu[-n-1]$.
             \item When $\text{ROC}=\left\{z:0.4<|z|<0.5\right\}$, then $y[n]$ is a two-sided sequence.\\
-            $\therefore$ $\text{ROC}=6.4\delta[n]+2.8889(-0.4)^nu[n]+6.5111(0.5)^nu[-n-1]$.
+            $\therefore$ $\text{ROC}=6.4\delta[n]+2.8889(-0.4)^nu[n]-6.5111(0.5)^nu[-n-1]$.
         \end{itemize} 
     \end{itemize}
 \end{itemize}
@@ -489,7 +496,7 @@ There are mainly two parts of this lab:
             \item And if we use $3$dB cutoff frequency to identify the passband, 
             as shown in the markers of figure, the cutoff frequency $\omega_c$ equals approximately $\pm 1.129$(rad).
             \item The passband of the lowpass filter is $\omega \in [-1.129,1.129]$ in rad with a length $2.258$(rad).
-            \item The stopband of the lowpass filter is $\omega \in [-\pi,-1,129]\cup[1.129,\pi]$.
+            \item The stopband of the lowpass filter is $\omega \in [-\pi,-1.129]\cup[1.129,\pi]$.
         \end{itemize}
         \item Question 2 (If a type III filter may be designed to be a lowpass filter?):
         \begin{itemize}
@@ -564,6 +571,11 @@ There are mainly two parts of this lab:
         $$
         $\therefore$ we have $H_1(e^{j\omega})=H(-e^{j\omega})=H(e^{j(\omega+\pi)})$. This will make the frequency response of $H_1(z)$ is a right frequncy shift with $\pi$ of $H(z)$.
         \\ By comparing the frequency responses of Figures 6 and 9, we could verify the above conclusion.
+        \\ Some interesting properties of $H_1(e^{j\omega})$:
+        \begin{itemize}
+            \item $H_1(e^{j\omega})$ is a highpass filter.
+            \item The bandwidth of $H_1(e^{j\omega})$ equlas $\pi-$bandwidthof $H(e^{j\omega})$.
+        \end{itemize}
         \item For $h_2[n]$, we have below general property for time-scaling signal:
         \begin{info}
         If $x_{(k)}[n]$ satisfies:
@@ -641,9 +653,9 @@ There are mainly two parts of this lab:
     M = 3;
     H_cascade = exp(-j*3*w/2).*(cos(w/2)).^3;
     H_moving_average = (1/M)*sin(M.*w/2)./sin(w/2).*exp(-1j*(M-1).*w./2);
-    plot(w,10*log10(abs(H_cascade)));
+    plot(w,20*log10(abs(H_cascade)));
     hold on;
-    plot(w,10*log10(abs(H_moving_average)));
+    plot(w,20*log10(abs(H_moving_average)));
     plot(w,-3*ones(1,5000));
     ylim([-50,0]);
     legend('the cascade filter','higher order moving average filter','3-dB cutoff line');
@@ -735,5 +747,7 @@ There are mainly two parts of this lab:
     of the related knowledge.
     \item Through the designs of some simple filters, the relationship between DTFT and z-transform is emphasized again, which really makes a sense
     to the applications of z-transform. 
+    \item An interesting bug I found: When it comes to drawing zero-pole plane, the inputs of MATLAB function \textbf{zplane.m} must be
+    column vectors, or we will not get the correct output. 
 \end{enumerate}
 \end{document}
