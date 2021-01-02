@@ -1,0 +1,8 @@
+\contentsline {section}{Introduction}{1}{section*.2}%
+\contentsline {section}{7.3 Design of a Simple FIR Filter}{2}{section*.3}%
+\contentsline {section}{7.4 Design of a Simple IIR Filter}{4}{section*.6}%
+\contentsline {section}{7.6 Filter Design Using Truncation}{7}{section*.9}%
+\contentsline {section}{8.2 Filter Design Using Standard Windows}{8}{section*.10}%
+\contentsline {section}{8.3 Filter Design Using the Kaiser Window}{10}{section*.11}%
+\contentsline {section}{Summary}{14}{section*.15}%
+\contentsline {section}{Appendix}{14}{section*.16}%

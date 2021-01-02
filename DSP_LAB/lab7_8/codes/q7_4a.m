@@ -1,0 +1,10 @@
+clear;
+w=-pi:0.01:pi;
+z = exp(j*w);
+r1 = 0.99;r2 = 0.9; r3 = 0.7;
+Hi1 = (1-r1)./(1-2*r1*cos(pi/3).*z.^(-1)+(r1.^2)*(z.^(-2)));
+Hi2 = (1-r2)./(1-2*r2*cos(pi/3).*z.^(-1)+(r2.^2)*(z.^(-2)));
+Hi3 = (1-r3)./(1-2*r3*cos(pi/3).*z.^(-1)+(r3.^2)*(z.^(-2)));
+subplot(1,3,1);plot(w,abs(Hi1));title('r=0.99');
+subplot(1,3,2);plot(w,abs(Hi2));title('r=0.9');
+subplot(1,3,3);plot(w,abs(Hi3));title('r=0.7');
